@@ -1,7 +1,4 @@
 fun main (){
-    add()
-    world()
-        add (10,20)
     var result =add(10,20)
     print(result)
 }
@@ -15,7 +12,7 @@ fun world(){
     var name= "Wuanita"
     println(name)
 }
-fun add(a:Int,b:Int):Int{
-    var sum= a+b
+fun add(a:Int,b:Int):Int {
+    var sum = a + b
     return (sum)
 }
